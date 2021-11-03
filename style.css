@@ -298,9 +298,9 @@ body{
 }
 
 .fitter{
-    background-color: #999;
+    background-image:url(https://cdn.pixabay.com/photo/2021/09/12/07/58/banner-6617553__340.jpg);
     height: 250px;
-    width: 100%;
+    width: 83%;
     margin-top: 120px;
     margin-left: 250px;
 }
@@ -310,10 +310,15 @@ body{
 .fitter h6,
 .fitter ul,
 .fitter ul li{
-    color:black;
+    color:rgb(184, 209, 45);
     margin-top: 20px;
     margin-left: 15px;
     font-family: inherit;
+    display: block;
+}
+
+.fitter h3 {
+    margin-top: 30px;
 }
 
 .fitter:hover{

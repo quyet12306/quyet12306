@@ -39,7 +39,7 @@ const makeVideoCard = (data) => {
         <div class="content">
             <img src="${data.channelThumbnail}" class="channel-icon" alt="">
             <div class="info">
-                <h4 class="title">${data.snippet.title}</h4>
+                <h5 class="title">${data.snippet.title}</h5>
                 <p class="channel-name">${data.snippet.channelTitle}</p>
             </div>
         </div>

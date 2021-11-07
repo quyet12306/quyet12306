@@ -1,6 +1,6 @@
 const videoCardContainer = document.querySelector('.video-container');
 
-let api_key = "AIzaSyDKEdPda058lEF5raegO7G7cNnZ5RvBIlA";
+let api_key = "AIzaSyBt2CbspeWpYJwdDDQnsiu8Td0HN4awmkE";
 let video_http = "https://www.googleapis.com/youtube/v3/videos?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 
@@ -58,3 +58,5 @@ searchBtn.addEventListener('click', () => {
         location.href = searchLink + searchInput.value;
     }
 })
+
+
